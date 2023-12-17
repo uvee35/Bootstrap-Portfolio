@@ -1,0 +1,23 @@
+.hero-section {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* White text color for contrast */
+    position: relative; /* Position relative for absolute positioning of buttons */
+    z-index: 1; /* Ensure the layering is correct */
+  }
+  
+  /* Add a custom class for the buttons to position them on the bottom of the hero section */
+  .hero-buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* Center the buttons */
+    z-index: 2; /* Above the background image */
+  }
+  
+  /* If you have a specific background image you want to use */
+  .hero-section {
+    background-image: url('./path_to_your_background_image.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  

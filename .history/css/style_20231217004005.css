@@ -1,0 +1,13 @@
+body {
+    background-color: #121212; /* Dark background for the entire page */
+    color: #ffffff; /* Light color for the text to contrast the dark background */
+  }
+  
+  /* If you're using Bootstrap, you can also utilize its dark theme classes */
+  
+.hero-section {
+    background-image: url('./images/background.webp');
+    background-size: cover;
+    background-position: center;
+  }
+  

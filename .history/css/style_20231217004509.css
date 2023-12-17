@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #333; /* Dark background for the navbar */
+    /* ... other styles ... */
+  }
+  
+  /* Update link colors for the dark theme */
+  .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover,
+  .navbar-dark .navbar-nav .nav-link:focus {
+    color: #aaaaaa; 
+
+  }
+  
+  
+.hero-section {
+    background-image: url('./images/background.webp');
+    background-size: cover;
+    background-position: center;
+  }
+  .text-background {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 0.5rem 1rem; /* Spacing around the text */
+    border-radius: 0.5rem; /* Optional: rounded corners for the background */
+    margin: 0.5rem 0; /* Space above and below the text elements */
+  }
+  
+
+  

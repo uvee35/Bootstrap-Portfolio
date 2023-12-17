@@ -1,67 +1,23 @@
-/* Custom Navbar Styles */
-.navbar {
-    background-color: #fff; /* Change as needed */
-    border-bottom: 2px solid #eee; /* Adds a subtle border */
-    box-shadow: 0 2px 4px rgba(0,0,0,.1); /* Adds a light shadow for depth */
+.hero-section {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* White text color for contrast */
+    position: relative; /* Position relative for absolute positioning of buttons */
+    z-index: 1; /* Ensure the layering is correct */
   }
   
-  /* Brand and Link Styles */
-  .navbar-brand {
-    font-weight: 600; /* Makes the brand/logo a bit bolder */
-    color: #333; /* Dark text for better readability */
+  
+  .hero-buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* Center the buttons */
+    z-index: 2; /* Above the background image */
   }
   
-  .navbar-light .navbar-nav .nav-link {
-    color: #555; /* Slightly darker than default for better contrast */
-    transition: color 0.3s ease-in-out; /* Smooth transition for hover effects */
-  }
-  
-  /* Change the color on hover */
-  .navbar-light .navbar-nav .nav-link:hover,
-  .navbar-light .navbar-nav .nav-link:focus {
-    color: #0056b3; /* Highlight color */
-  }
-  
-  /* Active Link Styles */
-  .navbar-light .navbar-nav .active>.nav-link,
-  .navbar-light .navbar-nav .nav-link.active,
-  .navbar-light .navbar-nav .nav-link.show,
-  .navbar-light .navbar-nav .show>.nav-link {
-    color: #0056b3; /* Highlight color for the active page */
-  }
-  
-  /* Toggler Icon */
-  .navbar-toggler {
-    border-color: #ddd; /* Light border color for the toggler */
-  }
-  
-  /* Toggler Icon when expanded */
-  .navbar-toggler[aria-expanded="true"] {
-    background-color: #eee; /* Light background color to indicate active state */
-  }
-  
-  /* Optional: Customize the collapsed menu list styles */
-  .navbar-collapse {
-    background-color: #f8f9fa; /* A very light background for the collapsed menu items */
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 992px) {
-    .navbar {
-      border-bottom: none; /* Remove the border for mobile devices */
-    }
-  
-    .navbar-collapse {
-      margin-top: 1rem; /* Add some space between the toggler and the link list */
-    }
-  }
-  
-  /* Adding a bit of padding for nav items */
-  .nav-item {
-    margin: 0 5px; /* Horizontal spacing */
-  }
-  
-  .navbar-nav {
-    align-items: center; /* Vertically align nav items */
+  /* If you have a specific background image you want to use */
+  .hero-section {
+    background-image: url('./images/background-pf.jpg');
+    background-size: cover;
+    background-position: center;
   }
   
