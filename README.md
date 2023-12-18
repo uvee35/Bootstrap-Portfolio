@@ -28,7 +28,7 @@ The website is fully responsive, adapting to various screen sizes and devices. F
 ## Local Development
 
 Deployment
-The portfolio is deployed and can be viewed live at https://uvee35.github.io/Bootstrap-Portfolio/#home
+The portfolio is deployed and can be viewed live at https://uvee35.github.io/Bootstrap-Portfolio/
 
 Credits
 Victor Marques: Design and Development
