@@ -1,0 +1,66 @@
+.hero-section {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* White text color for contrast */
+    position: relative; /* Position relative for absolute positioning of buttons */
+    z-index: 1; /* Ensure the layering is correct */
+  }
+  
+  
+  .hero-buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* Center the buttons */
+    z-index: 2; /* Above the background image */
+  }
+  
+  /* If you have a specific background image you want to use */
+  .hero-section {
+    background-image: url('./images/planet-1702788_1920.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #Skills {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  #work{
+    border: 1px solid none;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+.col-12{
+text-align: center;
+ padding-top: 5px;
+ padding-bottom: 2%;
+}
+
+#contact-me{
+  border: 1px solid none;
+    border-radius: 5px;
+    padding: 20px;
+}
+<footer class="container-fluid text-center py-3" id="footer">
+    <div class="container">
+        <div class="footer__contact-info">
+            <span class="footer__contact-header">Contact me:</span>
+            <a href="mailto:victormarquesrina@hotmail.com" class="contact-link">
+                <i class="fas fa-envelope"></i><span>Email</span>
+            </a>
+            <a href="https://www.instagram.com/Uvee35" class="contact-link">
+                <i class="fab fa-instagram"></i><span>Instagram</span>
+            </a>
+            <a href="https://medium.com/@victor5.vm58" class="contact-link">
+                <i class="fab fa-medium"></i><span>Medium</span>
+            </a>
+        </div>
+        <div class="footer__buttons">
+            <button class="btn btn-primary">Button 1</button>
+            <button class="btn btn-secondary">Button 2</button>
+        </div>
+    </div>
+</footer>
