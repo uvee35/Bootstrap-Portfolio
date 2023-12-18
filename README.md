@@ -10,6 +10,8 @@ Welcome to my professional portfolio website. This site showcases my projects an
 - **Work Section**: Displays my projects in a grid layout using Bootstrap cards, highlighting my best work with larger featured images.
 - **Skills Section** Displays bars with the skills that I adquired during the bootcamp
 - **Contact Section**: Offers a way for potential employers or clients to get in touch with me via email or social media.
+- **Footer**: Display liks to the different sections and also liks to social media profile.
+
 
 ## Technologies Used
 
@@ -35,4 +37,5 @@ Boostrap Free demo live: Provided me with demos for my portfolio
 FontAwesome: Icons used in the site
 Google Fonts: 'Orbitron' font styling
 Thank you for visiting my portfolio!
+
 <img width="2237" alt="Screenshot 2023-12-18 at 22 58 22" src="https://github.com/uvee35/Bootstrap-Portfolio/assets/151088688/cf1839a1-efac-4488-a611-ff219daaf4aa">
