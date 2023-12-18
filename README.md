@@ -8,7 +8,7 @@ Welcome to my professional portfolio website. This site showcases my projects an
 - **Hero Section**: Features my picture and name, serving as the introduction to my online presence.
 - **About Me Section**: Provides a background on my journey and skills as a web developer.
 - **Work Section**: Displays my projects in a grid layout using Bootstrap cards, highlighting my best work with larger featured images.
-- **Contact Section**
+- **Skills Section** Displays bars with the skills that I adquired during the bootcamp
 - **Contact Section**: Offers a way for potential employers or clients to get in touch with me via email or social media.
 
 ## Technologies Used
@@ -25,19 +25,14 @@ The website is fully responsive, adapting to various screen sizes and devices. F
 
 ## Local Development
 
-To clone the repository and view the portfolio on your local machine, use the following commands:
-
-shell
-# git clone [repository-link]
-# cd [repository-name]
-# open index.html 
-
 Deployment
-The portfolio is deployed and can be viewed live at 
+The portfolio is deployed and can be viewed live at https://uvee35.github.io/Bootstrap-Portfolio/#home
 
 Credits
 Victor Marques: Design and Development
 Bootstrap: Framework for building responsive sites
+Boostrap Free demo live: Provided me with demos for my portfolio
 FontAwesome: Icons used in the site
 Google Fonts: 'Orbitron' font styling
 Thank you for visiting my portfolio!
+<img width="2237" alt="Screenshot 2023-12-18 at 22 58 22" src="https://github.com/uvee35/Bootstrap-Portfolio/assets/151088688/cf1839a1-efac-4488-a611-ff219daaf4aa">
