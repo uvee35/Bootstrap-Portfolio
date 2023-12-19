@@ -1,8 +1,8 @@
 .hero-section {
-    background-color: #121212; /* Dark background color */
-    color: #ffffff; /* White text color for contrast */
-    position: relative; /* Position relative for absolute positioning of buttons */
-    z-index: 1; /* Ensure the layering is correct */
+    background-color: #121212; 
+    color: #ffffff; 
+    position: relative; 
+    z-index: 1; 
   }
   
   
@@ -10,11 +10,11 @@
     position: absolute;
     bottom: 20px;
     left: 50%;
-    transform: translateX(-50%); /* Center the buttons */
-    z-index: 2; /* Above the background image */
+    transform: translateX(-50%); 
+    z-index: 2; 
   }
   
-  /* If you have a specific background image you want to use */
+  
   .hero-section {
     background-image: url('./images/planet-1702788_1920.jpg');
     background-size: cover;
@@ -54,4 +54,27 @@ text-align: center;
 
 #social-icons{
   margin-left: 35%;
+}
+
+
+/* Base styles */
+.social-icon {
+  font-size: 1.5rem; /* Adjust base icon size as needed */
+  margin: 0 10px; /* Spacing between icons */
+}
+
+/* Media query for medium screens */
+@media (max-width: 768px) {
+  .social-icon {
+    font-size: 2rem; /* Larger icons on medium screens */
+    margin: 0 15px; /* Larger spacing between icons on medium screens */
+  }
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+  .social-icon {
+    font-size: 2.5rem; /* Even larger icons on small screens */
+    margin: 0 20px; /* Even larger spacing between icons on small screens */
+  }
 }
